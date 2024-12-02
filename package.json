@@ -1,12 +1,12 @@
 {
   "name": "advent-of-code-2024",
   "version": "1.0.0",
-  "description": "",
+  "description": "Advent of Code Playground 2024",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["advent of code", "2024"],
+  "author": "Geo Mircean",
+  "license": "MIT"
 }
