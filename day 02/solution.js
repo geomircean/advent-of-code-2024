@@ -1,7 +1,7 @@
-const fs = require('fs');
-const path = require('path');
+const { getData } = require('../util');
 
-const input = fs.readFileSync(path.join(__dirname, 'input.txt'), 'utf8');
+const input = getData('02');
+
 const divider = ' ';
 
 const formatData = () => input.split(/\r?\n/).filter(item => item !== '').map(line => line.split(divider));

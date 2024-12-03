@@ -1,6 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-export const getData = (filename) => {
-  return fs.readFileSync(path.join(__dirname, 'input.txt'), 'utf8');
+const getData = (day, file = 'input.txt') => {
+  return fs.readFileSync(path.join(__dirname, `day ${day}/${file}`), 'utf8');
 }
+
+module.exports = {
+  getData,
+};

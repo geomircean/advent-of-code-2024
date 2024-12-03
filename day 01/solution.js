@@ -1,7 +1,7 @@
-const fs = require('fs');
-const path = require('path');
+const { getData } = require('../util');
+
+const input = getData('01');
 const divider = '   ';
-const input = fs.readFileSync(path.join(__dirname, 'input.txt'), 'utf8');
 
 const getArrays = (text) => {
   const arrayA = [], arrayB = [];
